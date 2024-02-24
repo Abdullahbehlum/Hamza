@@ -1,0 +1,7 @@
+import{r as e,_ as a,j as s}from"./index-0-i6RoMl.js";function i(){const r=e.lazy(()=>a(()=>import("./Layout-WhxHXEpk.js"),__vite__mapDeps([0,1,2,3,4]))),t=e.lazy(()=>a(()=>import("./Pricing-Ulc5hRXU.js"),__vite__mapDeps([5,1,2,6,7,8,3,9]))),n=e.lazy(()=>a(()=>import("./ExpandReach-MXZzmsCy.js"),__vite__mapDeps([10,1,2]))),_=e.lazy(()=>a(()=>import("./Contect-GKnomhEy.js"),__vite__mapDeps([11,1,2,12,13])));return s.jsx(s.Fragment,{children:s.jsx(e.Suspense,{fallback:s.jsx(s.Fragment,{}),children:s.jsxs(r,{children:[s.jsx(e.Suspense,{fallback:s.jsx(s.Fragment,{}),children:s.jsx(t,{})}),s.jsx(e.Suspense,{fallback:s.jsx(s.Fragment,{}),children:s.jsx(n,{})}),s.jsx("div",{className:"pt-20",children:s.jsx(e.Suspense,{fallback:s.jsx(s.Fragment,{}),children:s.jsx(_,{})})})]})})})}export{i as default};
+function __vite__mapDeps(indexes) {
+  if (!__vite__mapDeps.viteFileDeps) {
+    __vite__mapDeps.viteFileDeps = ["assets/Layout-WhxHXEpk.js","assets/index-0-i6RoMl.js","assets/index-umpnGFkM.css","assets/CllickTop-xaAys6to.js","assets/AccordionContext-tJ36o3lV.js","assets/Pricing-Ulc5hRXU.js","assets/navigation-mCFr3bht.js","assets/getThemeProps--U3XNuJJ.js","assets/navigation-zyH_HGN6.css","assets/Home-sIexXutj.css","assets/ExpandReach-MXZzmsCy.js","assets/Contect-GKnomhEy.js","assets/ReactToastify-n3UrKYFE.js","assets/ReactToastify-UxrK7AV4.css"]
+  }
+  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
+}
